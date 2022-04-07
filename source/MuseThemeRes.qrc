@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Muse/qmldir</file>
+        <file>Muse/MuseTheme.qml</file>
+    </qresource>
+</RCC>

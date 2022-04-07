@@ -1,0 +1,5 @@
+# Module name
+# Should correspond to import name
+module Muse
+
+singleton MuseTheme 1.0 MuseTheme.qml
