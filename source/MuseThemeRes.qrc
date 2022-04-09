@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>Muse/qmldir</file>
         <file>Muse/MuseTheme.qml</file>
+        <file>Muse/MusePalette.qml</file>
+        <file>Muse/Muse.qml</file>
     </qresource>
 </RCC>
