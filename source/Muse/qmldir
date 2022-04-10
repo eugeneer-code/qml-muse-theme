@@ -6,3 +6,4 @@ singleton MuseTheme 1.0 MuseTheme.qml
 
 MusePalette 1.0 MusePalette.qml
 Muse 1.0 Muse.qml
+MuseShadow 1.0 MuseShadow.qml

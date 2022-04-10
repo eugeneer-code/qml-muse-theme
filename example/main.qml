@@ -1,7 +1,9 @@
-import QtQuick 2.8
+import QtQuick 2.13
 import QtQuick.Window 2.1
 import QtQuick.Controls 2.1
+import QtQuick.Layouts 1.13
 import Muse 1.0
+import "Pages"
 
 Window {
     id: window
@@ -25,5 +27,11 @@ Window {
                 case 1: MuseTheme.setTheme(Muse.AppTheme.Dark); break;
             }
         }
+    }
+
+    StackLayout {
+        anchors.fill: parent
+        currentIndex: 0
+        Colors{}
     }
 }
