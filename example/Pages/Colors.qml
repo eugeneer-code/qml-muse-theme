@@ -7,7 +7,6 @@ Item {
         anchors{
             fill: parent
             margins: 10
-            topMargin: 30
         }
 
         Label {

@@ -30,7 +30,10 @@ Window {
     }
 
     StackLayout {
-        anchors.fill: parent
+        anchors{
+            fill: parent
+            topMargin: 40
+        }
         currentIndex: 0
         Colors{}
     }

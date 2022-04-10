@@ -5,5 +5,17 @@
         <file>Muse/MusePalette.qml</file>
         <file>Muse/Muse.qml</file>
         <file>Muse/MuseShadow.qml</file>
+        <file>Muse/fonts/OpenSans-ExtraBold.ttf</file>
+        <file>Muse/fonts/OpenSans-ExtraBoldItalic.ttf</file>
+        <file>Muse/fonts/OpenSans-Italic.ttf</file>
+        <file>Muse/fonts/OpenSans-Light.ttf</file>
+        <file>Muse/fonts/OpenSans-LightItalic.ttf</file>
+        <file>Muse/fonts/OpenSans-Medium.ttf</file>
+        <file>Muse/fonts/OpenSans-MediumItalic.ttf</file>
+        <file>Muse/fonts/OpenSans-Regular.ttf</file>
+        <file>Muse/fonts/OpenSans-SemiBold.ttf</file>
+        <file>Muse/fonts/OpenSans-SemiBoldItalic.ttf</file>
+        <file>Muse/fonts/OpenSans-Bold.ttf</file>
+        <file>Muse/fonts/OpenSans-BoldItalic.ttf</file>
     </qresource>
 </RCC>
