@@ -2,5 +2,6 @@
     <qresource prefix="/MuseExample">
         <file>main.qml</file>
         <file>Pages/Colors.qml</file>
+        <file>Pages/Typography.qml</file>
     </qresource>
 </RCC>

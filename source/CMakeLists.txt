@@ -5,10 +5,12 @@ find_package(Qt5 REQUIRED COMPONENTS Quick Core Qml Gui)
 list(APPEND HEADERS
     MuseThemeExport.h
     MuseThemeLibrary.h
+    MuseStyle.h
 )
 
 list(APPEND SOURCES
     MuseThemeLibrary.cpp
+    MuseStyle.cpp
 )
 
 if(BUILD_MUSE_STATIC)

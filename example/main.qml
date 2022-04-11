@@ -1,6 +1,6 @@
 import QtQuick 2.13
-import QtQuick.Window 2.1
-import QtQuick.Controls 2.1
+import QtQuick.Window 2.13
+import QtQuick.Controls 2.13
 import QtQuick.Layouts 1.13
 import Muse 1.0
 import "Pages"
@@ -29,12 +29,38 @@ Window {
         }
     }
 
+    Component.onCompleted:{
+        drawer.open()
+    }
+
+    Drawer {
+        id: drawer
+        width: 150
+        height: window.height
+        dim: false
+        interactive: false
+
+        ListView {
+            anchors.fill: parent
+            model:["Colors", "Typography"]
+            boundsBehavior: Flickable.StopAtBounds
+            delegate: ItemDelegate{
+                width: parent.width
+                text: modelData
+                onClicked: stack.currentIndex = index
+            }
+        }
+    }
+
     StackLayout {
+        id: stack
         anchors{
             fill: parent
+            leftMargin: drawer.x + drawer.width
             topMargin: 40
         }
         currentIndex: 0
         Colors{}
+        Typography{}
     }
 }

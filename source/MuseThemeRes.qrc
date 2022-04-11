@@ -17,5 +17,6 @@
         <file>Muse/fonts/OpenSans-SemiBoldItalic.ttf</file>
         <file>Muse/fonts/OpenSans-Bold.ttf</file>
         <file>Muse/fonts/OpenSans-BoldItalic.ttf</file>
+        <file>Muse/Label.qml</file>
     </qresource>
 </RCC>
