@@ -17,4 +17,19 @@ Item {
         Green1,
         Green2
     }
+
+    enum TextStyle {
+        H1,
+        H2,
+        H3,
+        H4,
+        H5,
+        H6,
+        Body1,
+        Body2,
+        Subtitle,
+        Caption,
+        Button,
+        Overline
+    }
 }

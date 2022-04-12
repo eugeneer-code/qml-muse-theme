@@ -14,21 +14,6 @@ Window {
 
     color: MuseTheme.backgroundColor
 
-    // Theme selector
-    ComboBox {
-        anchors {
-           top: parent.top
-           right: parent.right
-        }
-        model: ["Light", "Dark"]
-        onActivated: {
-            switch(index){
-                case 0: MuseTheme.setTheme(Muse.AppTheme.Light); break;
-                case 1: MuseTheme.setTheme(Muse.AppTheme.Dark); break;
-            }
-        }
-    }
-
     Component.onCompleted:{
         drawer.open()
     }
@@ -38,7 +23,7 @@ Window {
         width: 150
         height: window.height
         dim: false
-        interactive: false
+        //interactive: false
 
         ListView {
             anchors.fill: parent
@@ -62,5 +47,20 @@ Window {
         currentIndex: 0
         Colors{}
         Typography{}
+    }
+
+    // Theme selector
+    ComboBox {
+        anchors {
+           top: parent.top
+           right: parent.right
+        }
+        model: ["Light", "Dark"]
+        onActivated: {
+            switch(index){
+                case 0: MuseTheme.setTheme(Muse.AppTheme.Light); break;
+                case 1: MuseTheme.setTheme(Muse.AppTheme.Dark); break;
+            }
+        }
     }
 }

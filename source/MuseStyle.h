@@ -10,21 +10,21 @@ namespace MuseTheme {
  */
 class MuseStyle : public QObject {
 Q_OBJECT
-    Q_PROPERTY(QString textStyle READ textStyle WRITE setTextStyle NOTIFY tsChanged)
+    Q_PROPERTY(int textStyle READ textStyle WRITE setTextStyle NOTIFY tsChanged)
 
 public:
     MuseStyle(QObject *parent = nullptr);
 
     static MuseStyle* qmlAttachedProperties(QObject* object);
 
-    QString textStyle() const;
-    void setTextStyle(QString style);
+    int textStyle() const;
+    void setTextStyle(int style);
 
 signals:
     void tsChanged();
 
 private:
-    QString _textStyle;
+    int _textStyle;
 };
 
 }

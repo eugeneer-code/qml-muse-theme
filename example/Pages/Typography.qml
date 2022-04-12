@@ -8,55 +8,55 @@ Item {
             fill: parent
             margins: 10
         }
-        spacing : 16
+        spacing : 8
 
         Label {
             text: "H1 Head"
-            MuseStyle.textStyle: "H1"
+            MuseStyle.textStyle: Muse.TextStyle.H1
         }
         Label {
             text: "H2 Headline"
-            MuseStyle.textStyle: "H2"
+            MuseStyle.textStyle: Muse.TextStyle.H2
         }
         Label {
             text: "H3 Headline"
-            MuseStyle.textStyle: "H3"
+            MuseStyle.textStyle: Muse.TextStyle.H3
         }
         Label {
             text: "H4 Headline"
-            MuseStyle.textStyle: "H4"
+            MuseStyle.textStyle: Muse.TextStyle.H4
         }
         Label {
             text: "H5 Headline"
-            MuseStyle.textStyle: "H5"
+            MuseStyle.textStyle: Muse.TextStyle.H5
         }
         Label {
             text: "H6 Headline"
-            MuseStyle.textStyle: "H6"
+            MuseStyle.textStyle: Muse.TextStyle.H6
         }
         Label {
             text: "Body 1"
-            MuseStyle.textStyle: "Body1"
+            MuseStyle.textStyle: Muse.TextStyle.Body1
         }
         Label {
             text: "Body 2"
-            MuseStyle.textStyle: "Body2"
+            MuseStyle.textStyle: Muse.TextStyle.Body2
         }
         Label {
             text: "Subtitle"
-            MuseStyle.textStyle: "Subtitle"
+            MuseStyle.textStyle: Muse.TextStyle.Subtitle
         }
         Label {
             text: "Button"
-            MuseStyle.textStyle: "Button"
+            MuseStyle.textStyle: Muse.TextStyle.Button
         }
         Label {
             text: "Caption"
-            MuseStyle.textStyle: "Caption"
+            MuseStyle.textStyle: Muse.TextStyle.Caption
         }
         Label {
             text: "Overline"
-            MuseStyle.textStyle: "Overline"
+            MuseStyle.textStyle: Muse.TextStyle.Overline
         }
     }
 }
