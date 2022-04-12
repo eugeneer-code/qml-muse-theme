@@ -10,16 +10,26 @@ QtObject {
     property int appTheme: Muse.AppTheme.Light
 
     property color backgroundColor
+    property color textColor
+    property color subTextColor
+    property color lineColor
 
     function setTheme(theme){
         switch(theme){
         case Muse.AppTheme.Light:
             backgroundColor = palette.basic[0]
+            textColor = "#212121"
+            subTextColor = "#727679"
+            lineColor = palette.basic[200]
             break;
         case Muse.AppTheme.Dark:
             backgroundColor = palette.basic[700]
+            textColor = palette.basic[0]
+            subTextColor = palette.basic[500]
+            lineColor = palette.basic[600]
             break;
         }
+        appTheme = theme
     }
 
    Component.onCompleted: setTheme(Muse.AppTheme.Light)

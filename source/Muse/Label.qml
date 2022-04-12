@@ -7,7 +7,7 @@ import Muse 1.0
 T.Label {
     id: control
 
-    color: control.palette.windowText
+    color: MuseTheme.textColor
     linkColor: control.palette.link
 
     property int textStyle: control.MuseStyle.textStyle

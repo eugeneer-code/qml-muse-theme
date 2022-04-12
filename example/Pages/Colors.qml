@@ -41,6 +41,14 @@ Item {
                      height: 50
                      radius: 3
                      color: modelData.data
+                     border.width:{
+                        if(MuseTheme.appTheme == Muse.AppTheme.Light &&
+                            modelData.name=="basic[0]") return 1
+                        if(MuseTheme.appTheme == Muse.AppTheme.Dark &&
+                            modelData.name=="basic[700]") return 1
+                        return 0
+                     }
+                     border.color: MuseTheme.lineColor
                      MouseArea{
                         id: mouseArea
                         anchors.fill: parent
