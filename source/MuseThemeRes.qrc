@@ -19,5 +19,7 @@
         <file>Muse/fonts/OpenSans-BoldItalic.ttf</file>
         <file>Muse/Label.qml</file>
         <file>Muse/Button.qml</file>
+        <file>Muse/Custom/ElevationEffect.qml</file>
+        <file>Muse/Custom/BoxShadow.qml</file>
     </qresource>
 </RCC>
