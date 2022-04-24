@@ -16,18 +16,18 @@ ElevationEffect {
             default: return 2
         }
     }
-    /*color: {
+    shadowColor: {
         switch(shadowType){
             case Muse.Shadow.Dark1:
             case Muse.Shadow.Dark2:
             case Muse.Shadow.Dark3:
             case Muse.Shadow.Dark4:
-            case Muse.Shadow.Dark5: return "#20082330"
+            case Muse.Shadow.Dark5: return "#082330"
             case Muse.Shadow.Blue1:
-            case Muse.Shadow.Blue2: return "#30367BF5"
+            case Muse.Shadow.Blue2: return "#367BF5"
             case Muse.Shadow.Green1:
-            case Muse.Shadow.Green2: return "#302FA84F"
-            default: return "#20082330"
+            case Muse.Shadow.Green2: return "#2FA84F"
+            default: return "#082330"
         }
-    }*/
+    }
 }
