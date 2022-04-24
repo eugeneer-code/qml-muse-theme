@@ -14,6 +14,9 @@ QtObject {
     property color subTextColor
     property color lineColor
 
+    property color hoverOverlayColor
+    property color pressedOverlayColor
+
     function setTheme(theme){
         switch(theme){
         case Muse.AppTheme.Light:
@@ -21,12 +24,16 @@ QtObject {
             textColor = "#212121"
             subTextColor = "#727679"
             lineColor = palette.basic[200]
+            hoverOverlayColor = "#10202020"
+            pressedOverlayColor = "#20202020"
             break;
         case Muse.AppTheme.Dark:
             backgroundColor = palette.basic[700]
             textColor = palette.basic[0]
             subTextColor = palette.basic[500]
             lineColor = palette.basic[600]
+            hoverOverlayColor = "#20000000"
+            pressedOverlayColor = "#30000000"
             break;
         }
         appTheme = theme

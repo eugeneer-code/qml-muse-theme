@@ -18,5 +18,6 @@
         <file>Muse/fonts/OpenSans-Bold.ttf</file>
         <file>Muse/fonts/OpenSans-BoldItalic.ttf</file>
         <file>Muse/Label.qml</file>
+        <file>Muse/Button.qml</file>
     </qresource>
 </RCC>

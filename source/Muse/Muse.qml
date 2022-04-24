@@ -32,4 +32,19 @@ Item {
         Button,
         Overline
     }
+
+    enum ControlColor {
+        Blue,
+        Red,
+        Orange,
+        Green,
+        Teal
+    }
+
+    enum ButtonStyle {
+        Normal,
+        Smooth,
+        Ghost,
+        Raised
+    }
 }

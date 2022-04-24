@@ -27,7 +27,7 @@ Window {
 
         ListView {
             anchors.fill: parent
-            model:["Colors", "Typography"]
+            model:["Colors", "Typography", "Buttons"]
             boundsBehavior: Flickable.StopAtBounds
             delegate: ItemDelegate{
                 width: parent.width
@@ -44,9 +44,10 @@ Window {
             leftMargin: drawer.x + drawer.width
             topMargin: 40
         }
-        currentIndex: 0
+        currentIndex: 2
         Colors{}
         Typography{}
+        Buttons{}
     }
 
     // Theme selector
